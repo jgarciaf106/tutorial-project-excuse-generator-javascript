@@ -16,4 +16,4 @@ function excuseGenerator(){
     return showOnPage.innerHTML = excuse;
 }
 
-console.log(excuseGenerator());
+excuseGenerator();
