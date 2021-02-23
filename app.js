@@ -6,10 +6,10 @@ function excuseGenerator(){
     
     let showOnPage = document.getElementById("excuse");
     let excuse = "";
-    let chooseWho = Math.floor((Math.random() * 3) + 0);
-    let chooseAction = Math.floor((Math.random() * 3) + 0);
-    let chooseWhat = Math.floor((Math.random() * 2) + 0);
-    let chooseWhen = Math.floor((Math.random() * 4) + 0);
+    let chooseWho = Math.floor((Math.random() * who.length) + 0);
+    let chooseAction = Math.floor((Math.random() * action.length) + 0);
+    let chooseWhat = Math.floor((Math.random() * what.length) + 0);
+    let chooseWhen = Math.floor((Math.random() * when.length) + 0);
 
     excuse = who[chooseWho] + " " + action[chooseAction] + " " + what[chooseWhat] + " " + when[chooseWhen];
 
